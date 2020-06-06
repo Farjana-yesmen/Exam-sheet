@@ -1,0 +1,125 @@
+
+@import url(href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet")
+/* Global css*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Raleway', sans-serif;
+}
+p,ul,li,a{
+  font-family: 'Open Sans', sans-serif;
+}
+/*Header section css*/
+header{
+  background: #000;
+  color: #fff;
+  height:75px;
+}
+.bg-light {
+    background-color: #000!important;
+    padding: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+.navbar-e .navbar-nav .nav-link {
+    padding-right: .7rem;
+    padding-left: .7rem;
+ 
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+   {
+    color: red;
+  }
+  /*Banner section css*/
+
+.banner h1{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 35px 0;
+
+}
+.title-broder{
+  background: #fff;
+  height: 2px;
+  width: 150px;
+  margin-top: 25px;
+
+}
+.banner img{
+  padding: 35px 0;
+}
+.banner p{
+  color: #e3e3e3;
+  padding:35px 0;
+    font-size: 18px;
+  
+}
+.btn-custom{
+  color: #fff;
+  background: transparent;
+  border:2px solid #fff;
+  padding: 10px 30px;
+  transition: 0.4s ease-in-out;
+}
+.btn-custom:hover{
+  background: #ff8b38;
+  border:2px solid #ff8b38;
+}
+.fancy-about-us-area {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.about-us-text > h2 {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+.about-us-text > p {
+    line-height: 1.8
+}
+.about-us-text > p:last-of-type {
+    margin-bottom: 35px;
+}
+.about-us-thumb > img {
+    border-radius: 5px;
+}
+/*shop Css*/
+.awsome .letter{
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+
+}
+.sub-broder-Awsome{
+    background: #ff8b38;
+    height: 2px;
+    width: 110px;
+    margin-left: 500px;  
+    
+}
+.awsome p{
+  text-align: center;
+  padding: 20px ;
+}
+ .awsome .fa{
+  border: 1px solid #ff8b38;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 10px;
+    color: #ff8b38;
+    width: 55px;
+    height: 55px;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 140px;
+}
+.awsome h4{
+    text-align: center;
+    padding-top: 20px;
+}

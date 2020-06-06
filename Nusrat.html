@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style >
+		*{
+	margin:0;
+	padding:0;
+	font-family:verdana;
+}
+body{
+	background-color:#C0C0C0;
+}
+#main{
+	width:100%;
+	height:80px;
+	/*background-image: url();*/
+	background-size: cover;
+}
+nav{
+	width:100%;
+	height:80px;
+	background-color: #000;
+	line-height: 80px;
+}
+nav ul{
+	float:right;
+	margin-right: 30px;
+}
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+}
+nav ul li:hover{
+	background-color:#f39d1a;
+}
+nav ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding:30px;
+}
+nav ul .search-icon{
+	height:20px;
+	width:70px;
+	background:#f2f2f2;
+	border-radius:5px;
+}
+nav ul .search-icon input{
+	height:100%;
+	width:200px;
+}
+text{
+	background-color: gray;
+}
+.text{
+	text-align:center;
+	font-size: 35px;
+	display: inline;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:50%;
+	left:40%;
+}
+	</style>
+	<meta charset="UTF-8">
+	<title>menu bar</title>
+	<link rel="stylesheet" type="text/css" href="menubar.css">
+</head>
+<body>
+	<div id="main">
+		<nav>
+	<img src="logo.png" width="100" height="70">
+		<ul>
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="shop.html">SHOP</a></li>
+			<li><a href="featured.html">FEATURED</a></li>
+			<li><a href="shortcode.html">SHORTCODE</a></li>
+			<li><a href="blog.html">BLOG</a></li>
+			<li><a href="contact_us.html">CONTACT_US</a></li>
+			<li class="search-icon">
+				<input type="search" placeholder="search">
+				<span class="fas fa-search"></span>
+		</ul>
+	</nav>
+	</div>
+	<div class="text">
+	<p><span style="color:red;"> A perfect <span style="color:black;"> cup,mug or </p><p>carafe every time </p>
+</div>
+</div>
+</body>
+</html>
